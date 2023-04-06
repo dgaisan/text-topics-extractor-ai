@@ -1,9 +1,13 @@
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <span>AI Text Topics extractor</span>
+    <div className="container">
+      <textarea
+        className="textarea"
+        placeholder="Ask chatGPT your question..."
+      ></textarea>
+      <button class="button">Submit</button>
     </div>
   );
 }
